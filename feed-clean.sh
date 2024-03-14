@@ -74,7 +74,8 @@ rm -rf feeds/packages/net/dns2tcp
 rm -rf feeds/packages/net/hysteria
 rm -rf feeds/packages/net/smartdns
 rm -rf feeds/packages/net/shadowsocks-rust
-rm -rf feeds/packages/net/mosdns
+# rm -rf feeds/packages/net/mosdns
+rm -rf /feeds/smpackage/mosdns
 # rm -rf feeds/luci/applications/luci-app-adbyby-plus
 # merge_package openwrt-23.05 https://github.com/immortalwrt/luci feeds/luci/applications applications/luci-app-adbyby-plus
 #rm -rf feeds/packages/net/frp
