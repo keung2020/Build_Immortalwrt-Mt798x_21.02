@@ -73,7 +73,8 @@ rm -rf feeds/packages/net/dns2socks
 rm -rf feeds/packages/net/dns2tcp
 rm -rf feeds/packages/net/hysteria
 rm -rf feeds/packages/net/smartdns
-rm -rf feeds/packages/net/shadowsocks-rust
+#rm -rf feeds/packages/net/shadowsocks-rust
+rm -rf /feeds/smpackage/shadowsocks-rust
 # rm -rf feeds/packages/net/mosdns
 rm -rf /feeds/smpackage/mosdns
 # rm -rf feeds/luci/applications/luci-app-adbyby-plus
