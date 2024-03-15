@@ -28,7 +28,7 @@ function merge_package() {
 #Delete duplicate file
 rm -rf feeds/luci/applications/luci-app-passwall
 rm -rf feeds/luci/applications/luci-app-ssr-plus
-rm -rf feeds/luci/applications/luci-theme-argon
+#-rf feeds/luci/applications/luci-theme-argon
 #rm -rf feeds/packages/net/naiveproxy
 #rm -rf feeds/packages/net/xray-core
 #rm -rf feeds/packages/net/xray-plugin
