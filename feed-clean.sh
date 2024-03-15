@@ -31,6 +31,9 @@ rm -rf feeds/luci/applications/luci-app-ssr-plus
 #-rf feeds/luci/applications/luci-theme-argon
 #rm -rf feeds/packages/net/naiveproxy
 #rm -rf feeds/packages/net/xray-core
+rm -rf feeds/passwallpackages/sing-box
+rm -rf feeds/passwallpackages/xray-core
+rm -rf feeds/passwallpackages/xray-plugin
 #rm -rf feeds/packages/net/xray-plugin
 #rm -rf feeds/packages/net/brook
 #rm -rf feeds/packages/net/chinadns-ng
