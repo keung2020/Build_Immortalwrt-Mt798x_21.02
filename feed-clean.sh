@@ -26,14 +26,14 @@ function merge_package() {
 }
 
 #Delete duplicate file
-rm -rf feeds/luci/applications/luci-app-passwall
-rm -rf feeds/luci/applications/luci-app-ssr-plus
+#rm -rf feeds/luci/applications/luci-app-passwall
+#rm -rf feeds/luci/applications/luci-app-ssr-plus
 #-rf feeds/luci/applications/luci-theme-argon
 #rm -rf feeds/packages/net/naiveproxy
 #rm -rf feeds/packages/net/xray-core
-rm -rf feeds/passwallpackages/sing-box
-rm -rf feeds/passwallpackages/xray-core
-rm -rf feeds/passwallpackages/xray-plugin
+#rm -rf feeds/openwrt-passwall-packages/sing-box
+#rm -rf feeds/openwrt-passwall-packages/xray-core
+#rm -rf feeds/openwrt-passwall-packages/xray-plugin
 #rm -rf feeds/packages/net/xray-plugin
 #rm -rf feeds/packages/net/brook
 #rm -rf feeds/packages/net/chinadns-ng
