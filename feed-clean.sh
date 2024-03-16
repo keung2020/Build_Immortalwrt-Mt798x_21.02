@@ -27,13 +27,13 @@ function merge_package() {
 
 #Delete duplicate file
 rm -rf feeds/luci/applications/luci-app-passwall
-#rm -rf feeds/luci/applications/luci-app-ssr-plus
+rm -rf feeds/luci/applications/luci-app-ssr-plus
 #-rf feeds/luci/applications/luci-theme-argon
 #rm -rf feeds/packages/net/naiveproxy
 #rm -rf feeds/packages/net/xray-core
-#rm -rf feeds/openwrt-passwall-packages/sing-box
-#rm -rf feeds/openwrt-passwall-packages/xray-core
-#rm -rf feeds/openwrt-passwall-packages/xray-plugin
+rm -rf feeds/openwrt-passwall-packages/sing-box
+rm -rf feeds/openwrt-passwall-packages/xray-core
+rm -rf feeds/openwrt-passwall-packages/xray-plugin
 #rm -rf feeds/packages/net/xray-plugin
 #rm -rf feeds/packages/net/brook
 #rm -rf feeds/packages/net/chinadns-ng
@@ -44,9 +44,8 @@ rm -rf feeds/luci/applications/luci-app-passwall
 #rm -rf feeds/packages/net/shadowsocks-rust
 #rm -rf feeds/packages/net/mosdns
 #rm -rf feeds/packages/net/frp
-merge_package main https://github.com/kenzok8/small-package feeds/luci/applications luci-app-bypass
-merge_package main https://github.com/kenzok8/small-package feeds/luci/applications luci-app-passwall
+#merge_package main https://github.com/kenzok8/small-package feeds/luci/applications luci-app-bypass
+#merge_package main https://github.com/kenzok8/small-package feeds/luci/applications luci-app-passwall
 #rm -rf feeds/packages/lang/golang
-# git clone https://github.com/openwrt/packages/tree/openwrt-23.05/lang/golang feeds/packages/lang/golang
 #merge_package openwrt-23.05 https://github.com/immortalwrt/packages feeds/packages/lang lang/golang
 ./scripts/feeds update -a
