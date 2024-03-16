@@ -14,9 +14,9 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#echo 'src-git ssr-plus https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git openwrt-passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-#echo 'src-git openwrt-passwall-packages https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
+echo 'src-git ssr-plus https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git openwrt-passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git openwrt-passwall-packages https://github.com/xiaorouji/openwrt-passwall-packages' >>feeds.conf.default
 #echo 'src-git ikoolproxy https://github.com/yaof2/luci-app-ikoolproxy' >>feeds.conf.default
 #echo 'src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' >>feeds.conf.default
 #git clone https://github.com/xiaorouji/openwrt-passwall2.git package/openwrt-passwall2
