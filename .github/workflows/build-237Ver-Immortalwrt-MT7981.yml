@@ -115,7 +115,7 @@ jobs:
       with:
         ccache: 'true'
         mixkey: 'mt7981'
-        prefix: 'openwrt'
+        prefix: 'openwrt237'
 
     - name: Download package
       id: package
