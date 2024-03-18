@@ -44,7 +44,7 @@ rm -rf feeds/passwallpackages/xray-plugin
 #rm -rf feeds/packages/net/shadowsocks-rust
 #rm -rf feeds/packages/net/mosdns
 #rm -rf feeds/packages/net/frp
-#merge_package main https://github.com/kenzok8/small-package feeds/luci/applications luci-app-bypass
+merge_package main https://github.com/kenzok8/small-package feeds/luci/applications luci-app-bypass
 #merge_package main https://github.com/kenzok8/small-package feeds/luci/applications luci-app-passwall
 #rm -rf feeds/packages/lang/golang
 #merge_package openwrt-23.05 https://github.com/immortalwrt/packages feeds/packages/lang lang/golang
