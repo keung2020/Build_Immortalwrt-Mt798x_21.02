@@ -114,7 +114,7 @@ jobs:
       uses: stupidloud/cachewrtbuild@main
       with:
         ccache: 'true'
-        mixkey: 'mt7981'
+        mixkey: 'mt7983'
         prefix: 'openwrt'
 
     - name: Download package
