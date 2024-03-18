@@ -115,7 +115,7 @@ jobs:
       with:
         ccache: 'true'
         mixkey: 'mt7981'
-        prefix: 'openwrtmtwifi'
+        prefix: 'openwrt'
 
     - name: Download package
       id: package
