@@ -26,25 +26,25 @@ function merge_package() {
 }
 
 #Delete duplicate file
-rm -rf feeds/luci/applications/luci-app-passwall
-rm -rf feeds/luci/applications/luci-app-ssr-plus
-#-rf feeds/luci/applications/luci-theme-argon
-#rm -rf feeds/packages/net/naiveproxy
-#rm -rf feeds/packages/net/xray-core
+
 rm -rf feeds/smpackage/sing-box
 rm -rf feeds/smpackage/xray-core
 rm -rf feeds/smpackage/xray-plugin
+#rm -rf feeds/packages/net/xray-core
 #rm -rf feeds/packages/net/xray-plugin
-#rm -rf feeds/packages/net/brook
-#rm -rf feeds/packages/net/chinadns-ng
-#rm -rf feeds/packages/net/dns2socks
-#rm -rf feeds/packages/net/dns2tcp
-#rm -rf feeds/packages/net/hysteria
-#rm -rf feeds/packages/net/smartdns
+rm -rf feeds/luci/applications/luci-app-passwall
+rm -rf feeds/luci/applications/luci-app-ssr-plus
+rm -rf feeds/luci/applications/luci-theme-argon
+rm -rf feeds/packages/net/naiveproxy
+rm -rf feeds/packages/net/brook
+rm -rf feeds/packages/net/chinadns-ng
+rm -rf feeds/packages/net/dns2socks
+rm -rf feeds/packages/net/dns2tcp
+rm -rf feeds/packages/net/hysteria
+rm -rf feeds/packages/net/smartdns
 #rm -rf feeds/packages/net/shadowsocks-rust
-#rm -rf feeds/packages/net/mosdns
 #rm -rf feeds/packages/net/frp
-merge_package main https://github.com/kenzok8/small-package feeds/luci luci-app-bypass
+#merge_package main https://github.com/kenzok8/small-package feeds/luci luci-app-bypass
 #merge_package main https://github.com/kenzok8/small-package feeds/luci/applications luci-app-passwall
 #rm -rf feeds/packages/lang/golang
 #merge_package openwrt-23.05 https://github.com/immortalwrt/packages feeds/packages/lang lang/golang
