@@ -8,7 +8,7 @@
 # Description: Build Immortalwrt using GitHub Actions
 #
 
-name: Build Hanwckf_Immortalwrt MT7981
+name: Build Immortalwrt_Hanwckf MT7981
 
 on:
   repository_dispatch:
