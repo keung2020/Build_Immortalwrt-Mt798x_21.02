@@ -8,7 +8,7 @@
 # Description: Build Immortalwrt using GitHub Actions
 #
 
-name: Build Immortalwrt Ver237 Mtwifi MT7981
+name: Build 237VerMtwifi-Immortalwrt-MT7981
 
 on:
   repository_dispatch:
